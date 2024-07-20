@@ -72,7 +72,7 @@ const scriptsDataWeapons = [
     {
         title: "MW2CR Weapon Common",
         imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHir8LCELnS7zvhaep1XHXr7CIubyFeK0rA&s",
-        imageAlt: "Ninjaman829 MW2CR",
+        imageAlt: "Ninjaman829 MW2CR Common",
         description: "This pack includes the MW2CR weapon common set up for use in Black Ops 3.",
         author: "ninjaman829",
         downloadLink: "https://mega.nz/file/TFJi2Zra#fDYmtFYuPxIMhsd9WjK-Oh04p_iP3eYdVRnXkydliB8",
