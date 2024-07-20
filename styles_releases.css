@@ -49,7 +49,7 @@ body {
     display: flex; /* Flexbox for alignment */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
-    padding: 0 15px; /* Padding on left and right sides */
+    padding: 10px 15px; /* Padding on left and right sides */
 }
 
 /* Container for the navigation list and filter bar */
