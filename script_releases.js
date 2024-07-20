@@ -183,9 +183,9 @@ function sortItems() {
         categoryData = window.scriptsDataModels;
     } else if (categoryId === "category4") {
         categoryData = window.scriptsDataCharacters;
-    } else if (categoryId === "category5") {
+    } else if (categoryId == "category5") {
         categoryData = window.scriptsDataWeapons;
-    } else if (categoryId == "category6") {
+    } else if (categoryId == "category6" ) {
         categoryData = window.scriptsDataPerks;
     }
 
