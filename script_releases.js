@@ -15,51 +15,15 @@ const scriptsDataMats = [
         imageAlt: "Verk0 PBR",
         description: "This pack includes a variety of PBR materials set up for use in Black Ops 3.",
         author: "Verk0",
-        downloadLink: "https://drive.google.com/file/d/1kH-P-sTddw6W1_CKUX2wPGExGXCuK1lM/view?usp=drive_link",
+        downloadLink: "https://mega.nz/file/cjpVwSjZ#KXH3Su3VwujtzyKvFNQpn_lfsutac093SljrDH3a0Aw",
         releaseDate: "2024-07-01"
-    },
-    {
-        title: "BO4 Material Pack",
-        imageSrc: "https://i.pinimg.com/originals/2e/3f/6f/2e3f6fa0377d6c7531012a871f1974a8.jpg",
-        imageAlt: "BMT Mats",
-        description: "This pack includes a variety of BO4 materials set up for use in Black Ops 3.",
-        author: "bigmanting",
-        downloadLink: "https://drive.google.com/file/d/1kH-P-sTddw6W1_CKUX2wPGExGXCuK1lM/view?usp=drive_link",
-        releaseDate: "2023-07-01"
-    },
-    {
-        title: "Blood Texture Pack",
-        imageSrc: "https://opengameart.org/sites/default/files/blood_splat_preview.png",
-        imageAlt: "BMT Blood",
-        description: "This pack includes a variety of blood materials set up for use in Black Ops 3.",
-        author: "bigmanting",
-        downloadLink: "https://drive.google.com/file/d/1kH-P-sTddw6W1_CKUX2wPGExGXCuK1lM/view?usp=drive_link",
-        releaseDate: "2024-08-01"
-    },
-    {
-        title: "MW4 Material Pack",
-        imageSrc: "https://i1.sndcdn.com/artworks-000545172318-hkqkky-t500x500.jpg",
-        imageAlt: "default release",
-        description: "This pack includes a variety of MW4 materials set up for use in Black Ops 3.",
-        author: "fake release",
-        downloadLink: "https://drive.google.com/file/d/1kH-P-sTddw6W1_CKUX2wPGExGXCuK1lM/view?usp=drive_link",
-        releaseDate: "2024-08-01"
-    },
-    {
-        title: "Basically im monke",
-        imageSrc: "https://www.researchgate.net/profile/Dang-Thanh/publication/329641091/figure/fig2/AS:712953703710721@1546992817811/Original-and-noise-version-of-the-Baboon-grayscale-256-256-test-image-with-Gaussian.ppm",
-        imageAlt: "default release",
-        description: "This pack includes a variety of MW4 materials set up for use in Black Ops 3.",
-        author: "fake release",
-        downloadLink: "https://drive.google.com/file/d/1kH-P-sTddw6W1_CKUX2wPGExGXCuK1lM/view?usp=drive_link",
-        releaseDate: "2025-08-01"
     },
     // Add more objects for additional script cards as needed
 ];
 
 const scriptsDataUI = [
     {
-        title: "Custom UI Pack",
+        title: "Unused",
         imageSrc: "https://upload.wikimedia.org/wikipedia/commons/3/39/Lichtenstein_img_processing_test.png",
         imageAlt: "Custom UI",
         description: "This pack includes custom UI elements for Black Ops 3.",
@@ -72,7 +36,7 @@ const scriptsDataUI = [
 
 const scriptsDataModels = [
     {
-        title: "WW2 Weapons Pack",
+        title: "Unused",
         imageSrc: "https://ccia.ugr.es/cvg/CG/images/base/9.gif",
         imageAlt: "WW2 Weapons",
         description: "This pack includes a variety of World War II weapons.",
