@@ -45,7 +45,7 @@ body {
     box-sizing: border-box; /* Include padding in width calculation */
     font-family: 'Montserrat', sans-serif; /* Apply Montserrat font */
     font-weight: 700; /* Bold weight */
-    height: 100px; /* Increased height */
+    height: 110px; /* Increased height */
     display: flex; /* Flexbox for alignment */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
