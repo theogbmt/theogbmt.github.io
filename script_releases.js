@@ -61,24 +61,33 @@ const scriptsDataCharacters = [
 
 const scriptsDataWeapons = [
     {
-        title: "Victis Character Crew",
-        imageSrc: "images/emox_victis_thumbnail.png",
-        imageAlt: "Victis Emox",
-        description: "This pack includes the 4 victis characters set up for use in Black Ops 3.",
-        author: "eMox Manga",
-        downloadLink: "https://mega.nz/file/QtgTQALT#ZoMW_n8E9XjXT6yLVVtyP17X-RsYWyUYgmU5tTUed-I",
-        releaseDate: "2024-07-01"
+        title: "MW2CR Weapons",
+        imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHir8LCELnS7zvhaep1XHXr7CIubyFeK0rA&s",
+        imageAlt: "Ninjaman829 MW2CR",
+        description: "This pack includes all of the MW2CR weapons set up for use in Black Ops 3.",
+        author: "ninjaman829",
+        downloadLink: "https://mega.nz/file/LUxz1D5Q#sCkBwXOi7ncs53FKvMVfEi5zTDpcFOAryyp0FbE0yYo",
+        releaseDate: "2024-04-20"
+    },
+    {
+        title: "MW2CR Weapon Common",
+        imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAHir8LCELnS7zvhaep1XHXr7CIubyFeK0rA&s",
+        imageAlt: "Ninjaman829 MW2CR",
+        description: "This pack includes the MW2CR weapon common set up for use in Black Ops 3.",
+        author: "ninjaman829",
+        downloadLink: "https://mega.nz/file/TFJi2Zra#fDYmtFYuPxIMhsd9WjK-Oh04p_iP3eYdVRnXkydliB8",
+        releaseDate: "2024-04-20"
     }
 ];
 
 const scriptsDataPerks = [
     {
-        title: "Victis Character Crew",
-        imageSrc: "images/emox_victis_thumbnail.png",
-        imageAlt: "Victis Emox",
-        description: "This pack includes the 4 victis characters set up for use in Black Ops 3.",
-        author: "eMox Manga",
-        downloadLink: "https://mega.nz/file/QtgTQALT#ZoMW_n8E9XjXT6yLVVtyP17X-RsYWyUYgmU5tTUed-I",
+        title: "Unused",
+        imageSrc: "https://ccia.ugr.es/cvg/CG/images/base/9.gif",
+        imageAlt: "WW2 Weapons",
+        description: "This pack includes a variety of World War II weapons.",
+        author: "Weapon Master",
+        downloadLink: "https://example.com/download2",
         releaseDate: "2024-07-01"
     }
 ];
