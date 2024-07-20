@@ -7,7 +7,7 @@ const scriptsDataMats = [
         description: "This pack includes a variety of World War II materials set up for use in Black Ops 3.",
         author: "Gordan Freeman (duffy)",
         downloadLink: "https://drive.google.com/file/d/1kH-P-sTddw6W1_CKUX2wPGExGXCuK1lM/view?usp=drive_link",
-        releaseDate: "2024-08-01"
+        releaseDate: "2023-08-01"
     },
     {
         title: "PBR Pack",
@@ -16,20 +16,20 @@ const scriptsDataMats = [
         description: "This pack includes a variety of PBR materials set up for use in Black Ops 3.",
         author: "Verk0",
         downloadLink: "https://mega.nz/file/cjpVwSjZ#KXH3Su3VwujtzyKvFNQpn_lfsutac093SljrDH3a0Aw",
-        releaseDate: "2024-07-01"
+        releaseDate: "2023-07-01"
     },
     // Add more objects for additional script cards as needed
 ];
 
 const scriptsDataUI = [
     {
-        title: "Unused",
-        imageSrc: "https://upload.wikimedia.org/wikipedia/commons/3/39/Lichtenstein_img_processing_test.png",
-        imageAlt: "Custom UI",
+        title: "Improved BO3 HUD",
+        imageSrc: "https://avatarfiles.alphacoders.com/717/71754.jpg",
+        imageAlt: "CBRUD BO3 Hud",
         description: "This pack includes custom UI elements for Black Ops 3.",
-        author: "UI Designer",
-        downloadLink: "https://example.com/download1",
-        releaseDate: "2024-07-01"
+        author: "ChefBoyRUDumb",
+        downloadLink: "https://cdn.discordapp.com/attachments/1173893595686768661/1187636461193920584/Chefs_BO3_HUD.zip?ex=669ca4a5&is=669b5325&hm=07ae77d1d29e230aa196e3d055baa72fb2899ccf2e648feb2983219c2abee38d&",
+        releaseDate: "2024-07-20"
     }
     // Add more objects for additional script cards as needed
 ];
