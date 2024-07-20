@@ -59,11 +59,37 @@ const scriptsDataCharacters = [
     }
 ];
 
+const scriptsDataWeapons = [
+    {
+        title: "Victis Character Crew",
+        imageSrc: "images/emox_victis_thumbnail.png",
+        imageAlt: "Victis Emox",
+        description: "This pack includes the 4 victis characters set up for use in Black Ops 3.",
+        author: "eMox Manga",
+        downloadLink: "https://mega.nz/file/QtgTQALT#ZoMW_n8E9XjXT6yLVVtyP17X-RsYWyUYgmU5tTUed-I",
+        releaseDate: "2024-07-01"
+    }
+];
+
+const scriptsDataPerks = [
+    {
+        title: "Victis Character Crew",
+        imageSrc: "images/emox_victis_thumbnail.png",
+        imageAlt: "Victis Emox",
+        description: "This pack includes the 4 victis characters set up for use in Black Ops 3.",
+        author: "eMox Manga",
+        downloadLink: "https://mega.nz/file/QtgTQALT#ZoMW_n8E9XjXT6yLVVtyP17X-RsYWyUYgmU5tTUed-I",
+        releaseDate: "2024-07-01"
+    }
+];
+
 // Attach data arrays to the window object for access
 window.scriptsDataMats = scriptsDataMats;
 window.scriptsDataUI = scriptsDataUI;
 window.scriptsDataModels = scriptsDataModels;
 window.scriptsDataCharacters = scriptsDataCharacters;
+window.scriptsDataWeapons = scriptsDataWeapons;
+window.scriptsDataPerks = scriptsDataPerks;
 
 // Function to create and append script-card elements for a specific category
 function createScriptCards(categoryId, categoryData) {
@@ -134,8 +160,11 @@ function showCategory(categoryId) {
         categoryData = window.scriptsDataModels;
     } else if (categoryId === "category4") {
         categoryData = window.scriptsDataCharacters;
+    } else if (categoryId === "category5") {
+        categoryData = window.scriptsDataWeapons;
+    } else if (categoryId == "category6") {
+        categoryData = window.scriptsDataPerks;
     }
-
     // Initial rendering of script cards
     createScriptCards(categoryId, categoryData);
 }
@@ -154,6 +183,10 @@ function sortItems() {
         categoryData = window.scriptsDataModels;
     } else if (categoryId === "category4") {
         categoryData = window.scriptsDataCharacters;
+    } else if (categoryId === "category5") {
+        categoryData = window.scriptsDataWeapons;
+    } else if (categoryId == "category6") {
+        categoryData = window.scriptsDataPerks;
     }
 
     if (sortBy === 'az') {
