@@ -75,7 +75,7 @@ const scriptsDataWeapons = [
         imageAlt: "Ninjaman829 MW2CR Common",
         description: "This pack includes the MW2CR weapon common set up for use in Black Ops 3.",
         author: "ninjaman829",
-        downloadLink: "https://mega.nz/file/TFJi2Zra#fDYmtFYuPxIMhsd9WjK-Oh04p_iP3eYdVRnXkydliB8",
+        downloadLink: "https://mega.nz/file/TFJi2Zra#fDYmtFYuPxIMhsd9WjK-Oh04p_iP3eYdVRnXkydliB8"
         releaseDate: "2024-04-20"
     }
 ];
