@@ -9,11 +9,11 @@ function enterSite() {
 
         void mainContent.offsetWidth;
 
-        mainContent.style.opacity = 1;
+        mainContent.style.opacity = 1; 
         localStorage.setItem('visitedLandingPage', 'true');
         
         loadContent('main.html');
-    }, 1000);
+    }, 1000); 
 }
 
 function openDiscord() {
