@@ -6,6 +6,7 @@ body, html {
     height: 100%;
     overflow: auto; /* Allow scrolling if necessary */
     font-family: 'Zen Maru Gothic', sans-serif; /* Default font */
+    box-sizing: border-box;
 }
 
 /* Styling for author information */
@@ -20,7 +21,6 @@ h1 {
     text-align: center; /* Center text horizontally */
     background: none; /* Remove background */
 }
-
 
 /* Grey background for the entire releases page */
 body {
@@ -118,7 +118,7 @@ body {
 .sort-options label, .search-bar label {
     margin-right: 5px; /* Space between label and input */
     font-weight: 700; /* Bold weight for labels */
-    color: #fff; /* Label text color */
+    color: #ffffff; /* Label text color */
 }
 
 .sort-options select, .search-bar input {
