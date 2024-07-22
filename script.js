@@ -16,8 +16,8 @@ function enterSite() {
     }, 1000); 
 }
 
-function openDiscord() {
-    window.location.href = 'https://discord.com/invite/DThRFkAS6p';
+function openDiscord( site ) {
+    window.location.href = site;
 }
 
 function loadContent(url) {
