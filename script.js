@@ -1,4 +1,3 @@
-// Function to handle entering the site
 function enterSite() {
     const landingPage = document.getElementById('landing-page');
     const mainContent = document.getElementById('main-content');
@@ -8,13 +7,11 @@ function enterSite() {
         landingPage.style.display = 'none';
         mainContent.style.display = 'flex';
 
-        // Trigger reflow
         void mainContent.offsetWidth;
 
         mainContent.style.opacity = 1;
         localStorage.setItem('visitedLandingPage', 'true;);
         
-        // Load the main content
         loadContent('main.html');
     }, 1000);
 }
@@ -42,7 +39,6 @@ function goToLandingPage() {
         mainContent.style.display = 'none';
         landingPage.style.display = 'flex';
 
-        // Trigger reflow
         void landingPage.offsetWidth;
 
         landingPage.style.top = '0';
