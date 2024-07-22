@@ -19,7 +19,7 @@ function enterSite() {
     }, 1000);
 }
 
-// Function to load content into the iframe with fade-in effect
+
 function loadContent(url) {
     const iframe = document.getElementById('content-iframe');
     iframe.style.opacity = 0;
@@ -49,7 +49,6 @@ function goToLandingPage() {
     }, 1000);
 }
 
-// Check if the landing page has been visited
 function checkLandingPage() {
     const landingPage = document.getElementById('landing-page');
     const mainContent = document.getElementById('main-content');
@@ -65,5 +64,4 @@ function checkLandingPage() {
     }
 }
 
-// Call checkLandingPage when the page loads
 window.onload = checkLandingPage;
