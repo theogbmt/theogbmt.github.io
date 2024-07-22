@@ -10,7 +10,7 @@ function enterSite() {
         void mainContent.offsetWidth;
 
         mainContent.style.opacity = 1;
-        localStorage.setItem('visitedLandingPage', 'true;);
+        localStorage.setItem('visitedLandingPage', 'true');
         
         loadContent('main.html');
     }, 1000);
