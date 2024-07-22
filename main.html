@@ -13,7 +13,7 @@
         <div class="hero-section">
             <h1>Mod Hub</h1>
             <p>Your ultimate destination for the best mods and resources.</p>
-            <button onclick="exploreMods()">Explore Mods</button>
+            <button onclick="exploreMods( 'releases.html' )">Explore Mods</button>
         </div>
 
         <!-- Recent Releases Section -->
@@ -54,8 +54,8 @@
 
     <script src="script_releases.js"></script>
     <script>
-        function exploreMods() {
-            window.location.href = 'releases.html'; // Replace with your actual releases page URL
+        function exploreMods( site ) {
+            window.location.href = site; // Replace with your actual releases page URL
         }
 
         function displayRecentReleases() {
