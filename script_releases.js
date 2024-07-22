@@ -246,5 +246,7 @@ function filterCards() {
     });
 }
 
-// Add event listener to the search input to call filterCards on input change
-document.getElementById('search-bar').addEventListener('input', filterCards);
+const searchBar = document.getElementById('search-bar');
+if( searchBar ) {
+    document.getElementById('search-bar').addEventListener('input', filterCards);
+}
