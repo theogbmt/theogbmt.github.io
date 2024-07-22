@@ -44,7 +44,7 @@ body, html {
     color: white;
     padding: 15px 30px;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -86,7 +86,7 @@ body, html {
 /* Card styles */
 .release {
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
     width: 250px;
     transition: transform 0.3s ease;
@@ -116,7 +116,7 @@ body, html {
     color: white;
     padding: 10px 20px;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 5px;
     text-decoration: none;
     font-size: 1em;
     margin-top: 15px; /* Add margin to space it from the content above */
@@ -168,7 +168,7 @@ body, html {
 .category {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
     margin: 20px;
     width: 250px; /* Ensure a consistent size for all buttons */
@@ -200,5 +200,5 @@ body, html {
 
 .category img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
