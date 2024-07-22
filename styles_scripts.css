@@ -78,6 +78,7 @@ h1 {
     padding: 10px 20px;
     background-color: #1e90ff; /* Button color */
     color: white;
+    font-size: large;
     text-decoration: none;
     border: 2px solid black; /* Button border */
     border-radius: 5px; /* Rounded corners */
