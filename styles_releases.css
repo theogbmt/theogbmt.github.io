@@ -66,7 +66,7 @@ body {
     flex-wrap: wrap; /* Wrap buttons to fit the screen width */
     width: 100%; /* Ensure it spans the full width of the container */
     box-sizing: border-box; /* Include padding and border in width calculation */
-    gap: 10px; /* Reduced space between buttons */
+    gap: 5px; /* Reduced space between buttons */
 }
 
 /* Align items in the list */
