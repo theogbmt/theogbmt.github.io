@@ -180,44 +180,6 @@ body {
     width: 100%; /* Default width to full container */
 }
 
-/* Responsive layout for script cards */
-@media (min-width: 576px) {
-    .script-card {
-        width: calc(50% - 20px); /* Two cards per row with spacing */
-    }
-}
-
-@media (min-width: 768px) {
-    .script-card {
-        width: calc(33.333% - 20px); /* Three cards per row with spacing */
-    }
-}
-
-@media (min-width: 992px) {
-    .script-card {
-        width: calc(25% - 20px); /* Four cards per row with spacing */
-    }
-}
-
-@media (min-width: 1200px) {
-    .script-card {
-        width: calc(16.666% - 20px); /* Six cards per row with spacing */
-    }
-}
-
-/* For very small screens, stack cards vertically */
-@media (max-width: 575px) {
-    .scripts-list {
-        flex-direction: column; /* Stack cards vertically */
-        align-items: center; /* Center cards horizontally */
-    }
-
-    .script-card {
-        width: calc(100% - 40px); /* Full width for smaller screens */
-        margin-bottom: 20px; /* Space between stacked cards */
-    }
-}
-
 /* Ensure Montserrat is used for non-description text */
 .script-card h2, 
 .script-card a {
