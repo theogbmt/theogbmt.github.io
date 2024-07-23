@@ -30,7 +30,7 @@ body {
 /* Black bar at the top */
 #black-bar {
     background-color: #000;
-    height: 10px; /* Adjust height as needed */
+    height: 15px; /* Adjust height as needed */
     width: 100%;
 }
 
